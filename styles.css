@@ -14,6 +14,7 @@ header {
 .inline-block{
     display: inline-block;
     vertical-align: top;
+    width: 100%;
 }
 
 header ul{
@@ -67,4 +68,61 @@ color: white;
 .top-menu{
     margin-left:8px;
     margin-right: 8px;
+}
+
+.greenOutline {
+    border: 1px solid green;
+}
+
+.blueOutline {
+    border: 1px solid blue;
+}
+
+.flexContainer{
+    display: flex;
+}
+
+.userSkill{
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.headlineCenter{
+    align-items: center auto;
+    justify-content: center;
+    text-align: center justify center;
+    justify-items: center;
+}
+ .projectimage{
+    width: 100%;
+    object-fit: cover;
+ }
+
+ .projecttext{
+    width: 100%;
+    text-align: center;
+    
+ }
+
+.workGrid{
+        display: grid;
+        margin: 0px 5%;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: repeat(2, 1fr); 
+        gap: 10px;
+}
+
+
+
+@media only screen and (max-width:600){
+    .workGrid{
+        display: grid;
+        margin: 0px 5%;
+        grid-template-columns: repeat(1, 1fr); 
+        grid-template-rows: repeat(1, 1fr); 
+        gap: 10px;
+}
 }
