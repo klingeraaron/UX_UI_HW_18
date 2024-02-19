@@ -91,10 +91,7 @@ color: white;
 }
 
 .headlineCenter{
-    align-items: center auto;
-    justify-content: center;
-    text-align: center justify center;
-    justify-items: center;
+text-align: center;
 }
  .projectimage{
     width: 100%;
@@ -113,6 +110,11 @@ color: white;
         grid-template-columns: repeat(2, 1fr); 
         grid-template-rows: repeat(2, 1fr); 
         gap: 10px;
+}
+
+.skillsimg{
+    width: 50%;
+    object-fit: cover;
 }
 
 
